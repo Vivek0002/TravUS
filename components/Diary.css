@@ -1,0 +1,128 @@
+
+.destination{
+    margin: 3rem 5rem;
+    /* margin: 0; */
+    text-align: center;
+    /* background-color: rgb(114, 183, 220); */
+    /* background-color: gray; */
+     
+}
+.destination p{
+    font-size: 1.1rem;
+}
+
+.destination h1{
+    font-size:3rem;
+    align-items: start;
+}
+
+.first-des{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.b-btn{
+    background-color: rgb(177, 177, 178);
+    text-align: center;
+    margin-top: 2rem;
+    /* left: 2%; */
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+.b-btn:hover{
+       background-color: rgb(223, 222, 222);
+}
+
+.second-des{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.des-text{
+    width: 40%;
+    align-items: start;
+    font-size: 1.1rem;
+    margin-right: rem;
+}
+.second-des .des-text{
+    width: 40%;
+    align-items: start;
+    font-size: 1.1rem;
+}
+
+.des-text h2{
+    padding-bottom: 1rem;
+}
+.second-des .des-text h2{
+    padding-bottom: 1rem;
+}
+
+.image{
+    position: relative;
+    width: 45%;
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* overflow: hidden; */
+    
+
+}
+
+.image img{
+    width: 48%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* bottom: -10%; */
+    
+   
+}
+
+.image img:nth-child(2){
+    position: absolute;
+    top: -25%;
+    right: 0;
+    bottom: 1%;
+   
+}
+
+@media screen and (max-width: 850px) {
+
+    .destination{
+        margin: 4rem 2rem;
+    }
+
+    .first-des{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .second-des{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .des-text{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+
+    .image img{
+        height: 250px;
+    }
+    
+}

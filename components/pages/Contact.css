@@ -1,0 +1,64 @@
+
+.c-head{
+    /* align-items: center; */
+    
+     /* position: relative;s */
+     width: 100%;
+     min-height: 50vh;
+     display:flex;
+    
+    padding: 150px 200px; 
+    margin-top: auto;
+    
+    /* background-color: darkgrey; */
+    background-image: url(../images/conbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;;
+    background-position: centers;
+    /* flex-direction: column; */
+}
+
+.c-img{
+    align-items: center;
+}
+
+.form-input{
+    flex-direction: column;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1rem;
+    min-height: 50vh;
+
+}
+
+.form-input input{
+
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid black;
+}
+
+.form-input textarea{
+    
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid black;
+}
+
+.form-input button{
+    display: inline;
+    padding: .3rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.form-input button:hover{
+    background-color: gray;
+}
+
